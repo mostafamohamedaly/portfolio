@@ -1,0 +1,15 @@
+/* src/SplashScreen.css */
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .splash-content {
+    animation: fadeIn 3s ease-in-out;
+  }
+  
