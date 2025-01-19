@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.53ea5b09.css",
+    "main.js": "/portfolio/static/js/main.4cea8918.js",
+    "static/js/213.e215533a.chunk.js": "/portfolio/static/js/213.e215533a.chunk.js",
+    "static/js/455.ddae69ff.chunk.js": "/portfolio/static/js/455.ddae69ff.chunk.js",
+    "static/media/AnimeBoy2.jpg": "/portfolio/static/media/AnimeBoy2.5ddfc3f09a66fa9f2a6a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.53ea5b09.css.map": "/portfolio/static/css/main.53ea5b09.css.map",
+    "main.4cea8918.js.map": "/portfolio/static/js/main.4cea8918.js.map",
+    "213.e215533a.chunk.js.map": "/portfolio/static/js/213.e215533a.chunk.js.map",
+    "455.ddae69ff.chunk.js.map": "/portfolio/static/js/455.ddae69ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53ea5b09.css",
+    "static/js/main.4cea8918.js"
+  ]
+}
