@@ -5,7 +5,7 @@ import AppRoutes from "./Routes/AppRoutes.jsx";
 function App() {  
   return (
     <div className="App">
-    <Router>
+    <Router basename="/portfolio">
       <AppRoutes />
     </Router>
     <Cursor />
