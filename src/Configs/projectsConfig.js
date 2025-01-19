@@ -25,7 +25,7 @@ const projects = [
     description:
       "Linked is an emerging startup based in the USA, dedicated to game development and empowering individuals to invest in cryptocurrencies. Though its website is yet to launch, Linked aims to provide innovative gaming experiences while offering educational resources for navigating the crypto world. Combining creativity and financial literacy, Linked strives to bridge the gap between entertainment and investment opportunities.",
     media: [
-      { src: "./Projects/Linked/2023-05-04-2015-22.gif", width: 400, height: 300 },
+      { src: "./Projects/Linked/Home Page2.png", width: 400, height: 300 },
       { src: "./Projects/Linked/Home Page.png", width: 400, height: 300 },
       { src: "./Projects/Linked/Home Page2.png", width: 400, height: 300 },
       { src: "./Projects/Linked/Home Page3.png", width: 400, height: 300 },
