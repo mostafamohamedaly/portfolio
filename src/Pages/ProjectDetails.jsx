@@ -75,7 +75,7 @@ const ProjectDetails = ({ projects }) => {
           >
             {/* Close Button */}
             <button
-              className="close-btn absolute top-4 left-4 py-0 text-white text-lg md:text-xl font-bold ring-2 ring-white"
+              className="close-btn absolute top-4 left-4 py-0 text-white text-lg md:text-xl font-bold ring-2 ring-white bg-gray-600"
               onClick={closeLightbox}
             >
               Close
@@ -83,7 +83,7 @@ const ProjectDetails = ({ projects }) => {
 
             {/* Previous Button */}
             <button
-              className="prev absolute top-1/2 left-4 py-0 transform -translate-y-1/2 text-white text-xl md:text-2xl ring-2 ring-white"
+              className="prev absolute top-1/2 left-4 py-0 transform -translate-y-1/2 text-white text-xl md:text-2xl ring-2 ring-white bg-gray-600"
               onClick={prevImage}
             >
               ←
@@ -91,7 +91,7 @@ const ProjectDetails = ({ projects }) => {
 
             {/* Next Button */}
             <button
-              className="next absolute top-1/2 right-4 py-0 transform -translate-y-1/2 text-white text-xl md:text-2xl ring-2 ring-white"
+              className="next absolute top-1/2 right-4 py-0 transform -translate-y-1/2 text-white text-xl md:text-2xl ring-2 ring-white bg-gray-600"
               onClick={nextImage}
             >
               →
