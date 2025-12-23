@@ -1,14 +1,12 @@
-import Cursor from "./Components/Cursor";
 import { BrowserRouter as Router } from "react-router-dom";
 import AppRoutes from "./Routes/AppRoutes.jsx";
 
-function App() {  
+function App() {
   return (
     <div className="App">
-    <Router>
-      <AppRoutes />
-    </Router>
-    <Cursor />
+      <Router>
+        <AppRoutes />
+      </Router>
     </div>
   );
 }
