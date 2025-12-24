@@ -6,6 +6,7 @@ const projects = [
     description:
       "Venu.ai is a cutting-edge platform connecting venue owners with individuals seeking unique spaces for events, meetings, and more. Simplifying the rental process, Venu.ai ensures seamless communication and agreements between renters and owners. With a wide range of venues and a focus on convenience and transparency, Venu.ai makes finding and booking the perfect space effortless.",
     url: "https://venu.ai",
+    technologies: ["Figma", "React", "NodeJS"],
     media: [
       { src: "/Projects/Venu/2023-05-04-1955-06.gif", width: 400, height: 300 },
       { src: "/Projects/Venu/2023-05-04-1955-26.gif", width: 400, height: 300 },
@@ -24,6 +25,7 @@ const projects = [
     screenshot: "/Projects/Linked/2023-05-04-2015-22.gif",
     description:
       "Linked is an emerging startup based in the USA, dedicated to game development and empowering individuals to invest in cryptocurrencies. Though its website is yet to launch, Linked aims to provide innovative gaming experiences while offering educational resources for navigating the crypto world. Combining creativity and financial literacy, Linked strives to bridge the gap between entertainment and investment opportunities.",
+    technologies: ["Figma"],
     media: [
       { src: "/Projects/Linked/2023-05-04-2015-22.gif", width: 400, height: 300 },
       { src: "/Projects/Linked/Home Page.png", width: 400, height: 300 },

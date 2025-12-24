@@ -7,6 +7,29 @@ const ProjectCard = ({ project, darkMode = true }) => {
     navigate(`/project/${project.id}`);
   };
 
+  // Technology badge colors
+  const getTechColor = (tech) => {
+    const colors = {
+      'Figma': {
+        light: 'bg-purple-100 text-purple-700 border-purple-300',
+        dark: 'bg-purple-900/30 text-purple-300 border-purple-700/50'
+      },
+      'React': {
+        light: 'bg-cyan-100 text-cyan-700 border-cyan-300',
+        dark: 'bg-cyan-900/30 text-cyan-300 border-cyan-700/50'
+      },
+      'NodeJS': {
+        light: 'bg-green-100 text-green-700 border-green-300',
+        dark: 'bg-green-900/30 text-green-300 border-green-700/50'
+      },
+      'NextJS': {
+        light: 'bg-gray-200 text-gray-800 border-gray-400',
+        dark: 'bg-gray-700/30 text-gray-200 border-gray-600/50'
+      }
+    };
+    return darkMode ? colors[tech]?.dark || '' : colors[tech]?.light || '';
+  };
+
   return (
     <div className={`group rounded-2xl overflow-hidden shadow-soft hover:shadow-strong transition-all duration-500 hover:-translate-y-2 border ${
       darkMode
@@ -31,6 +54,18 @@ const ProjectCard = ({ project, darkMode = true }) => {
         }`}>
           {project.title}
         </h3>
+        {project.technologies && project.technologies.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-4">
+            {project.technologies.map((tech, index) => (
+              <span
+                key={index}
+                className={`px-3 py-1 rounded-full text-xs font-semibold border transition-all duration-300 ${getTechColor(tech)}`}
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        )}
         <p className={`text-sm mb-6 line-clamp-3 leading-relaxed ${
           darkMode ? 'text-neutral-300' : 'text-neutral-600'
         }`}>
