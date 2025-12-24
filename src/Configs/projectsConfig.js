@@ -62,12 +62,12 @@ const projects = [
     technologies: ["Vue", "Figma"],
     showOnHomepage: false,
     media: [
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025316.png", width: 400, height: 300 },
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025333.png", width: 400, height: 300 },
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025353.png", width: 400, height: 300 },
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025410.png", width: 400, height: 300 },
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025445.png", width: 400, height: 300 },
-      { src: "/Projects/tutoruu/Screenshot 2025-12-24 025601.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025316.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025333.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025353.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025410.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025445.png", width: 400, height: 300 },
+      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025601.png", width: 400, height: 300 },
     ],
   },
   {
