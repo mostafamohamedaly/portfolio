@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react"
 import ProjectCard from "../Components/ProjectCard"
 import projects from "../Configs/projectsConfig"
 import { Animate } from "react-simple-animate"
+import { useTheme } from "../Context/ThemeContext"
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(true)
+  const { darkMode, toggleDarkMode } = useTheme()
   const [scrolled, setScrolled] = useState(false)
 
   const skills = [
@@ -22,21 +23,6 @@ const Home = () => {
     e.preventDefault()
     document.getElementById(targetId).scrollIntoView({ behavior: "smooth" })
   }
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
-
-  useEffect(() => {
-    // Apply dark mode class to document
-    if (darkMode) {
-      document.documentElement.classList.add("dark")
-      document.documentElement.classList.remove("light")
-    } else {
-      document.documentElement.classList.remove("dark")
-      document.documentElement.classList.add("light")
-    }
-  }, [darkMode])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -880,11 +866,38 @@ const Home = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 stagger-children">
-              {projects.map((project) => (
+              {projects.filter(project => project.showOnHomepage !== false).map((project) => (
                 <div key={project.id} className="scroll-reveal">
                   <ProjectCard project={project} darkMode={darkMode} />
                 </div>
               ))}
+            </div>
+
+            {/* All Projects Button */}
+            <div className="mt-16 text-center scroll-reveal">
+              <button
+                onClick={() => window.location.href = '/projects'}
+                className={`group inline-flex items-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold transition-all duration-500 shadow-medium hover:shadow-strong hover:scale-105 ${
+                  darkMode
+                    ? "bg-transparent border-2 border-accent-500 text-accent-400 hover:bg-accent-500 hover:text-white"
+                    : "bg-transparent border-2 border-accent-600 text-accent-700 hover:bg-accent-600 hover:text-white"
+                }`}
+              >
+                View All Projects
+                <svg
+                  className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
 

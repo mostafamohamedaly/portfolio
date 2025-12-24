@@ -25,6 +25,10 @@ const ProjectCard = ({ project, darkMode = true }) => {
       'NextJS': {
         light: 'bg-gray-200 text-gray-800 border-gray-400',
         dark: 'bg-gray-700/30 text-gray-200 border-gray-600/50'
+      },
+      'Vue': {
+        light: 'bg-emerald-100 text-emerald-700 border-emerald-300',
+        dark: 'bg-emerald-900/30 text-emerald-300 border-emerald-700/50'
       }
     };
     return darkMode ? colors[tech]?.dark || '' : colors[tech]?.light || '';
@@ -36,11 +40,13 @@ const ProjectCard = ({ project, darkMode = true }) => {
         ? 'bg-neutral-800/50 backdrop-blur-sm border-neutral-700/50 hover:border-accent-500/50'
         : 'bg-white border-neutral-200 hover:border-accent-400'
     }`}>
-      <div className="relative overflow-hidden">
+      <div className={`relative overflow-hidden ${project.isMobileProject ? 'bg-black' : ''}`}>
         <img
           src={project.screenshot}
           alt={`${project.title} screenshot`}
-          className="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110"
+          className={`w-full h-56 transition-transform duration-700 group-hover:scale-110 ${
+            project.isMobileProject ? 'object-contain' : 'object-cover'
+          }`}
         />
         <div className={`absolute inset-0 bg-gradient-to-t to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
           darkMode ? 'from-neutral-900/90' : 'from-white/90'
