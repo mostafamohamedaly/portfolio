@@ -55,7 +55,7 @@ const projects = [
   {
     id: "4",
     title: "Tutoruu",
-    screenshot: "/Projects/tutoruu/Screenshot 2025-12-24 025316.png",
+    screenshot: "/Projects/Tutoruu/Screenshot 2025-12-24 025316.png",
     description:
       "An innovative tutoring platform connecting students with qualified tutors for personalized learning experiences.",
     url: "https://tutoruu.com/en",
