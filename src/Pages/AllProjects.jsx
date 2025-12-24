@@ -87,7 +87,7 @@ const AllProjects = () => {
                 darkMode ? "text-neutral-400" : "text-neutral-600"
               }`}
             >
-              A complete collection of my work showcasing design and development
+              A complete collection of my recent work showcasing design and development
               expertise across various technologies
             </p>
           </div>
