@@ -55,19 +55,19 @@ const projects = [
   {
     id: "4",
     title: "Tutoruu",
-    screenshot: "/Projects/Tutoruu/Screenshot 2025-12-24 025316.png",
+    screenshot: "/Projects/tutoruuCo/Screenshot 2025-12-24 025316.png",
     description:
       "An innovative tutoring platform connecting students with qualified tutors for personalized learning experiences.",
     url: "https://tutoruu.com/en",
     technologies: ["Vue", "Figma"],
     showOnHomepage: false,
     media: [
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025316.png", width: 400, height: 300 },
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025333.png", width: 400, height: 300 },
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025353.png", width: 400, height: 300 },
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025410.png", width: 400, height: 300 },
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025445.png", width: 400, height: 300 },
-      { src: "/Projects/Tutoruu/Screenshot 2025-12-24 025601.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025316.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025333.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025353.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025410.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025445.png", width: 400, height: 300 },
+      { src: "/Projects/tutoruuCo/Screenshot 2025-12-24 025601.png", width: 400, height: 300 },
     ],
   },
   {
