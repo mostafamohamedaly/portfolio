@@ -170,7 +170,7 @@ const Home = () => {
                 }`}
               >
                 <a
-                  href="https://www.linkedin.com/in/your-profile"
+                  href="https://www.linkedin.com/in/mostafa-sharaf-364336271/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`transition-all duration-300 hover:scale-110 ${
@@ -189,7 +189,7 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://github.com/your-profile"
+                  href="https://github.com/mostafamohamedaly"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`transition-all duration-300 hover:scale-110 ${
@@ -317,7 +317,7 @@ const Home = () => {
           </a>
           <div className="flex items-center space-x-6 pt-4">
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/mostafa-sharaf-364336271/"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-all duration-300 hover:scale-125 ${
@@ -336,7 +336,7 @@ const Home = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/your-profile"
+              href="https://github.com/mostafamohamedaly"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-all duration-300 hover:scale-125 ${
